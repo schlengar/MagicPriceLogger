@@ -17,3 +17,16 @@ We store the readouts and compute a weighted average for the US and the EU sites
 ## Why?
 
 First of all, for practise. Second, as a player of the game, I'm interested in the market dynamics. Third, maybe there are interesting correlations between the US and EU prices which could be used to react to spikes in the market, *i.e.* to know when I should sell a card I have or buy one I want.
+
+
+### Current ToDo:
+
+* Finish WebHandler
+* Make program look up prices whenever last check is more than 12 hours in the past
+* Store prices indexed by
+    * Site
+    * Price level (low, avg, hi)
+    * Date and Time
+* Make database from US and EU sites respectively
+* Make automated graphs, preferably interactive
+* *Distant future*: when enough data is gathered, think about training a NN to predict prices
